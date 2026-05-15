@@ -10,7 +10,7 @@ public class Main {
 
         do {
             System.out.println("\n--- SISTEMA ACADÉMICO UTA ---");
-            System.out.println("1. Insertar estudiante\n2. Buscar por cédula\n3. Eliminar (No impl.)\n4. Inorden\n5. Preorden\n6. Postorden\n7. BFS\n8. Contar estudiantes\n9. Altura\n10. Nota Mayor\n11. Nota Menor\n12. Aprobados\n13. Reprobados\n14. Salir");
+            System.out.println("1. Insertar estudiante\n2. Buscar por cédula\n3. Eliminar Estudiante\n4. Recorrido Inorden\n5. Recorrido Preorden\n6. Recorrido Postorden\n7. Recorrido BFS\n8. Recorrido Contar estudiantes\n9. Recorrido Altura\n10. Nota Mayor\n11. Nota Menor\n12. Estudiantes Aprobados\n13. Estudiante Reprobados\n14. Salir");
             System.out.print("Seleccione: ");
             op = sc.nextInt();
             sc.nextLine();
@@ -37,7 +37,7 @@ public class Main {
                     sc.nextLine(); // Limpiar buffer
                     System.out.print("Carrera: ");
                     String cr = sc.nextLine();
-                    System.out.print("Nivel: ");
+                    System.out.print("Nivel (1 - 9): ");
                     int nv = sc.nextInt();
 
                     boolean insertado = arbol.insertar(new Estudiante(c, a, n, nt, cr, nv));
