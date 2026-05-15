@@ -27,3 +27,10 @@ Para poner en marcha el proyecto, siga estos pasos en su terminal:
 1. **Clonar el repositorio:**
    ```bash
    git clone [https://github.com/Diego02255/Prueba-Pr-ctica-Segundo-Parcial-Estructura-de-Datos.git](https://github.com/Diego02255/Prueba-Pr-ctica-Segundo-Parcial-Estructura-de-Datos.git)
+   ### Pasos finales para la subida (Evidencia de Commits):
+
+ Ejecuta estos comandos finales en su terminal:
+   ```bash
+   git add README.md
+   git commit -m "Evidencia: Documentación completa y guía de usuario en README.md"
+   git push origin main
